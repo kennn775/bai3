@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    height: 100vh; /* 100% Chiều cao của màn hình */
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    margin: 10px;
+    text-align: center;
+    font-size: 24px; /* Đặt kích thước font chữ */
+}
+
+.item img {
+    width: auto; /* Đặt chiều rộng thay đổi theo */
+    height: 100px; /* Đặt chiều cao cố định */
+    margin-right: 30px; /* Đặt khoảng cách 30 pixel giữa các ảnh */
+}
